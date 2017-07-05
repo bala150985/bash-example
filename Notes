@@ -1,0 +1,35 @@
+sudo apt-get install git git-extras
+
+#Now initiallize git repostitory.
+$ git init
+
+Go to github.com signin and then click on + button > new repository
+
+Then give a name for the Repostiory e.g. bash-example
+
+Then click on initialize this repository with a README file & Create.
+
+First do a fill pull
+git pull origin master
+
+
+$ git branch --set-upstream-to=origin/master
+
+$ git add README.md
+
+OR
+
+$ git add -A
+
+$ git commit -m "Updated README added 1.sh"
+
+$ git push 
+
+We need not give it "git push origin master" as we already set the branch.
+
+This is for removing the directory and deleting it.
+$ git rm -r Dir2Ignore
+
+$ git-ignore Dir2Ignore/*
+
+
